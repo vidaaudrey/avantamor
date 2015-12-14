@@ -15,6 +15,16 @@ $fa-font-path: "../bower_components/font-awesome/fonts";
   padding: 0.2em 0;
 }
 
+// material design palette 
+$dark-primary-color:    #7B1FA2;
+$primary-color:         #9C27B0;
+$light-primary-color:   #E1BEE7;
+$accent-color:          #607D8B;
+$primary-text-color:    #212121;
+$secondary-text-color:  #727272;
+$divider-color:         #B6B6B6;
+
+
 body{
     background: url(/assets/images/bg.jpg) no-repeat center center fixed;
     background-size: cover;
@@ -22,6 +32,10 @@ body{
 
 .main {
     min-height: 1000px;
+}
+.top-nav{
+  border: none;
+  background-color: transparent;
 }
 
 // Component styles are injected through grunt
