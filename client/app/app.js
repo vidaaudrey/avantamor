@@ -4,7 +4,7 @@ angular.module('avantamorApp', [
   'avantamorApp.auth',
   'avantamorApp.admin',
   'avantamorApp.constants',
-  //'ngCookies',
+  'ngCookies',
   'ngResource',
   'ngSanitize',
   'btford.socket-io',
